@@ -42,6 +42,14 @@
 			</div>
 		</div>
 	</div>
+	<div class="certificates">
+		<h3>Certificates</h3>
+		<div class="Certificates-container">
+			<ul>
+				<li><a href="https://verify.openedg.org/?id=rDPA.xKsx.fFK4" target="_blank">PCAP – Certified Associate in Python Programming</a></li>
+			</ul>
+		</div>
+	</div>
 </main>
 
 <style>
@@ -82,7 +90,7 @@
 	.education .item, .work-experience .item {
 		margin-bottom: 20px;
 	}
-	.education-container, .work-experience-container {
+	.education-container, .work-experience-container, .certificates-container {
 		padding: 10px;
 	}
 
