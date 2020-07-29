@@ -5,6 +5,13 @@
 		<div class="bio">
 			<p>Founder of Humaan.ai—Build intelligent technology tools that amplifying human ingenuity.</p>
 		</div>
+		<div class="connect">
+			<ul>
+				<li><a href="https://twitter.com/athivvat" target="_blank">Twitter</a></li>
+				<li><a href="https://medium.com/@athivvat" target="_blank">Medium</a></li>
+				<li><a href="https://www.facebook.com/athivvat" target="_blank">Facebook</a></li>
+			</ul>
+		</div>
 	</div>
 	<div class="work-experience">
 		<h3>Work Experience</h3>
@@ -93,7 +100,10 @@
 	.education-container, .work-experience-container, .certificates-container {
 		padding: 10px;
 	}
-
+	.connect li {
+		display: inline;
+		padding: 0 8px;
+	}
 	@media (min-width: 640px) {
 		main {
 			max-width: 680px;
