@@ -23,7 +23,7 @@
 			</div>
 			<div class="item">
 				<p>2020, 1 February - Present</p>
-				<p><strong>Analytics Engineer</strong></p>
+				<p><strong>Data Engineer</strong></p>
 				<p><a href="https://kingpowerclick.com/">King Power Click</a></p>
 			</div>
 			<div class="item">
