@@ -1,6 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Box } from '../Box'
+import React from 'react';
+import styled from 'styled-components';
+import { Box } from '../Box';
+import Content from '../../content/header.mdx';
 
 const Background = styled(Box)`
   background-size: 1.73em 1.73em;
@@ -28,14 +29,31 @@ const Background = styled(Box)`
       rgba(255, 255, 255, 0) 100%
     );
   }
-`
+`;
+
+const Wrap = styled.header`
+  color: var(--color-haze);
+  position: relative;
+  z-index: 1;
+  h1 {
+    margin-top: 0;
+    font-size: 1.7em;
+  }
+  h4 {
+    margin-top: 2.2em;
+  }
+  text-align: center;
+  grid-column: 1/12;
+`;
 
 const Header: React.FC = () => {
   return (
     <Background>
-      ATHIWAT
+      <Wrap>
+        <Content />
+      </Wrap>
     </Background>
-  )
-}
+  );
+};
 
-export { Header }
+export { Header };
