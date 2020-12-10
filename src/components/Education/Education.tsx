@@ -43,6 +43,7 @@ const Education = () => {
         </University>
         <Period>2008-2011</Period>
       </Item>
+      <hr />
     </>
   );
 };

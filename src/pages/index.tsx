@@ -1,4 +1,5 @@
-import { Header, Experience, Education } from "../components";
+import { Certificate } from "crypto";
+import { Header, Experience, Education, Certificates } from "../components";
 
 function HomePage() {
   return (
@@ -6,6 +7,7 @@ function HomePage() {
     <Header />
     <Experience />
     <Education />
+    <Certificates />
     </>
   );
 }
