@@ -10,7 +10,7 @@ const JobTitle = styled.p`
   font-weight: bold;
 `;
 
-const Company = styled.p`
+const Company = styled.a`
   margin: 0;
   padding: 0;
 `;
@@ -28,13 +28,17 @@ const Experience = () => {
       <h2>Experience</h2>
       <Container>
         <JobTitle>Data Engineer</JobTitle>
-        <Period>(January 2020 - Present)</Period>
-        <Company>King Power Click</Company>
+        <Company href="http://kingpowerclick.com/" target="_blank">
+          King Power Click
+        </Company>
+        <Period>January 2020 - Present</Period>
       </Container>
       <Container>
         <JobTitle>Software Engineer</JobTitle>
-        <Period>(May 2018 - January 2020)</Period>
-        <Company>King Power Click</Company>
+        <Company href="http://kingpowerclick.com/" target="_blank">
+          King Power Click
+        </Company>
+        <Period>May 2018 - January 2020</Period>
       </Container>
       <hr />
     </>
