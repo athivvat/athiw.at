@@ -10,6 +10,8 @@ const Certificates = () => {
           >
             PCAP – Certified Associate in Python Programming
           </a>
+          <div>Date Certified: July 28, 2020</div>
+          <div>Certification Code: rDPA.xKsx.fFK4</div>
         </li>
       </ul>
       <hr />
