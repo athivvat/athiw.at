@@ -7,6 +7,7 @@ const Certificates = () => {
           <a
             href="https://verify.openedg.org/?id=rDPA.xKsx.fFK4"
             target="_blank"
+            rel="noreferrer"
           >
             PCAP – Certified Associate in Python Programming
           </a>
@@ -14,7 +15,6 @@ const Certificates = () => {
           <div>Certification Code: rDPA.xKsx.fFK4</div>
         </li>
       </ul>
-      <hr />
     </>
   );
 };

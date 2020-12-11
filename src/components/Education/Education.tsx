@@ -31,14 +31,22 @@ const Education = () => {
       <Item>
         <Degree>M.S. Business Analytics and Data Science</Degree>
         <Major>Major in Artificial Intelligence and Machine Learning</Major>
-        <University href="http://www.nida.ac.th/en/" target="_blank">
+        <University
+          href="http://www.nida.ac.th/en/"
+          target="_blank"
+          rel="noreferrer"
+        >
           National Institute of Development Administration (NIDA)
         </University>
         <Period>2019-Present</Period>
       </Item>
       <Item>
         <Degree>B.Eng. Computer Engineering</Degree>
-        <University href="https://www.tni.ac.th/" target="_blank">
+        <University
+          href="https://www.tni.ac.th/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Thai-Nichi Institute of Technology
         </University>
         <Period>2008-2011</Period>

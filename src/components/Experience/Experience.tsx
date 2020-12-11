@@ -28,14 +28,22 @@ const Experience = () => {
       <h2>Experience</h2>
       <Container>
         <JobTitle>Data Engineer</JobTitle>
-        <Company href="http://kingpowerclick.com/" target="_blank">
+        <Company
+          href="http://kingpowerclick.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           King Power Click
         </Company>
         <Period>January 2020 - Present</Period>
       </Container>
       <Container>
         <JobTitle>Software Engineer</JobTitle>
-        <Company href="http://kingpowerclick.com/" target="_blank">
+        <Company
+          href="http://kingpowerclick.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           King Power Click
         </Company>
         <Period>May 2018 - January 2020</Period>

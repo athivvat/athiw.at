@@ -45,9 +45,23 @@ const gridStyle = css`
   }
 `;
 
-const Box = styled.div`
+const variantStyle = css<{ variant?: 'light' | 'dark' }>`
+  ${({ variant }) =>
+    variant === 'dark' &&
+    css`
+      background: rgb(var(--color-background));
+      --color-background: 0, 0, 0;
+      --color-foreground: 255, 255, 255;
+      --color-heading: #ffffff;
+      --color-haze: #afafaf;
+      --color-cta: #ffffff;
+    `}
+`;
+
+const Box = styled.div<{ variant?: 'light' | 'dark' }>`
   ${common}
   ${gridStyle}
+  ${variantStyle}
 `;
 
 export { Box };

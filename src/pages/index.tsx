@@ -1,13 +1,20 @@
-import { Certificate } from "crypto";
-import { Header, Experience, Education, Certificates } from "../components";
+import { Certificate } from 'crypto';
+import {
+  Header,
+  Experience,
+  Education,
+  Certificates,
+  Footer,
+} from '../components';
 
 function HomePage() {
   return (
     <>
-    <Header />
-    <Experience />
-    <Education />
-    <Certificates />
+      <Header />
+      <Experience />
+      <Education />
+      <Certificates />
+      <Footer />
     </>
   );
 }
