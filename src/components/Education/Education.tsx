@@ -38,7 +38,7 @@ const Education = () => {
         >
           National Institute of Development Administration (NIDA)
         </University>
-        <Period>2019-Present</Period>
+        <Period>2020-Present</Period>
       </Item>
       <Item>
         <Degree>B.Eng. Computer Engineering</Degree>
