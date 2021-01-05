@@ -1,19 +1,11 @@
-import { Certificate } from 'crypto';
-import {
-  Header,
-  Experience,
-  Education,
-  Certificates,
-  Footer,
-} from '../components';
+import { Header, Footer } from '../components';
+import { About } from '../components/About';
 
 function HomePage() {
   return (
     <>
       <Header />
-      <Experience />
-      <Education />
-      <Certificates />
+      <About />
       <Footer />
     </>
   );

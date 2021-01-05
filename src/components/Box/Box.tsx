@@ -1,12 +1,12 @@
 import styled, { css } from 'styled-components';
 
 const common = css`
-  @media (min-width: 576px) {
+  /* @media (min-width: 576px) {
     grid-column: 1/7;
   }
   @media (min-width: 769px) {
     grid-column: 1/13;
-  }
+  } */
 `;
 
 const gridStyle = css`
@@ -32,9 +32,6 @@ const gridStyle = css`
   @media (min-width: 576px) {
     padding-top: 4.8em;
     padding-bottom: 4.8em;
-    display: grid;
-    grid-template-columns: repeat(var(--grid-column), 1fr);
-    grid-column-gap: var(--grid-gutter);
     /* Removes extra margin */
     & + & {
       margin-bottom: -4.8em;

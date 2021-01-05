@@ -25,7 +25,7 @@ const Period = styled.p`
 const Experience = () => {
   return (
     <>
-      <h2>Experience</h2>
+      <h3>Experience</h3>
       <Container>
         <JobTitle>Data Engineer</JobTitle>
         <Company
@@ -48,7 +48,6 @@ const Experience = () => {
         </Company>
         <Period>May 2018 - January 2020</Period>
       </Container>
-      <hr />
     </>
   );
 };

@@ -27,7 +27,7 @@ const Item = styled.div`
 const Education = () => {
   return (
     <>
-      <h2>Education</h2>
+      <h3>Education</h3>
       <Item>
         <Degree>M.S. Business Analytics and Data Science</Degree>
         <Major>Major in Artificial Intelligence and Machine Learning</Major>
@@ -51,7 +51,6 @@ const Education = () => {
         </University>
         <Period>2008-2011</Period>
       </Item>
-      <hr />
     </>
   );
 };
