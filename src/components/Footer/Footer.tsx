@@ -35,7 +35,7 @@ const Social = styled.div`
 
 const Footer = () => {
   return (
-    <Box variant="dark">
+    <div>
       <Social>
         <a href="https://github.com/athivvat" target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="Github" />
@@ -44,7 +44,7 @@ const Footer = () => {
           <img src={twitterIcon} alt="Github" />
         </a>
       </Social>
-    </Box>
+    </div>
   );
 };
 

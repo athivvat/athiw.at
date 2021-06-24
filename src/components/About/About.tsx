@@ -3,7 +3,12 @@ import styled from 'styled-components';
 import { Box } from '../Box';
 import { Experience, Education, Certificates } from '../';
 
-const Wrapper = styled(Box)``;
+import BackgroundGradient from '../../assets/images/gradient.png';
+
+const Wrapper = styled.div`
+
+
+`;
 
 const Content = styled.div`
   display: grid;
@@ -42,13 +47,7 @@ const Quote = styled.div`
 
 const About: React.FC = () => {
   return (
-    <Wrapper variant="dark">
-      <Quote>
-        Intelligence is a big deal. Humanity owes its dominant position on Earth
-        not to any special strength of our muscles, nor any unusual sharpness of
-        our teeth, but to the unique ingenuity of our brains.
-      </Quote>
-      <h1>What if we can augmented our intelligence?</h1>
+    <Wrapper>
       <Content>
         <div>
           <h3>About</h3>

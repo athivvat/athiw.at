@@ -1,6 +1,8 @@
 import { Layout } from '../components';
 import { NextSeo } from 'next-seo';
 
+import 'tailwindcss/tailwind.css'
+
 export default function MyApp({ Component, pageProps }) {
   return (
     <>

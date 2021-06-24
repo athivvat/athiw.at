@@ -1,10 +1,9 @@
-import { Header, Footer } from '../components';
+import {  Footer } from '../components';
 import { About } from '../components/About';
 
 function HomePage() {
   return (
     <>
-      <Header />
       <About />
       <Footer />
     </>
