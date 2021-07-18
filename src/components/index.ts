@@ -1,4 +1,3 @@
-export { Box } from './box';
 export { Layout } from './layout';
 export { Experience } from './experience';
 export { Education } from './education';

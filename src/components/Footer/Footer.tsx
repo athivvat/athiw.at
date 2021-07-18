@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Box } from '../box';
 
 import githubIcon from './icons/logo-github.svg';
 import twitterIcon from './icons/logo-twitter.svg';
