@@ -1,14 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Box } from '../box';
 import { Experience, Education, Certificates } from '../';
-
-import BackgroundGradient from '../../assets/images/gradient.png';
-
-const Wrapper = styled.div`
-
-
-`;
 
 const Content = styled.div`
   display: grid;
@@ -47,7 +39,7 @@ const Quote = styled.div`
 
 const About: React.FC = () => {
   return (
-    <Wrapper>
+    <div>
       <Content>
         <div>
           <h3>About</h3>
@@ -73,7 +65,7 @@ const About: React.FC = () => {
           <Certificates />
         </div>
       </Content>
-    </Wrapper>
+    </div>
   );
 };
 
