@@ -1,4 +1,4 @@
-import { Layout } from '../components';
+import { Layout } from '../layout';
 import { NextSeo } from 'next-seo';
 
 import 'tailwindcss/tailwind.css'
