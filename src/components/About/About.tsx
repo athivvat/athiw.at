@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Certificates, Education, Experience } from '../';
 
-
 const Content = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
