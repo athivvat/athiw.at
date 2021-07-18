@@ -1,4 +1,4 @@
-export { Experience } from './experience';
+// export { Experience } from './experience';
 export { Education } from './education';
 export { Certificates } from './certificates';
 export { Footer } from './footer';
