@@ -1,6 +1,7 @@
-export { Box } from './Box';
-export { Layout } from './Layout';
-export { Experience } from './Experience';
-export { Education } from './Education';
-export { Certificates } from './Certificates';
-export { Footer } from './Footer';
+export { Box } from './box';
+export { Layout } from './layout';
+export { Experience } from './experience';
+export { Education } from './education';
+export { Certificates } from './certificates';
+export { Footer } from './footer';
+export { Header } from './header';

@@ -1,18 +1,19 @@
-import React from 'react'
-import Reset from './reset'
-import Root from './root'
-import Typography from './typography'
+import React from 'react';
+import { Header } from '../header';
+import Reset from './reset';
+import Root from './root';
+import Typography from './typography';
 
 const Layout: React.FC = ({ children }) => {
-
   return (
     <>
       <Reset />
       <Root />
       <Typography />
-      { children }
+      <Header />
+      <div>{children}</div>
     </>
-  )
-}
+  );
+};
 
-export { Layout }
+export { Layout };
