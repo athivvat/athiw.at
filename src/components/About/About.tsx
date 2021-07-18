@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Experience, Education, Certificates } from '../../components';
+import { Certificates, Education, Experience } from '../';
+
 
 const Content = styled.div`
   display: grid;
