@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Certificates, Education, Experience, Footer } from '../components';
+import { Footer } from '../components';
 
 const Content = styled.div`
   display: grid;
@@ -31,11 +31,11 @@ function HomePage() {
             (NIDA), Thailand.
           </p>
         </div>
-        <div>
+        {/* <div>
           <Experience />
           <Education />
           <Certificates />
-        </div>
+        </div> */}
       </Content>
     </div>
       <Footer />
