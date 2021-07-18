@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Box } from '../Box';
+import { Box } from '../box';
 import { Experience, Education, Certificates } from '../';
 
 import BackgroundGradient from '../../assets/images/gradient.png';
