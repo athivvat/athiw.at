@@ -52,4 +52,4 @@ const Experience = () => {
   );
 };
 
-export { Experience };
+export default Experience;

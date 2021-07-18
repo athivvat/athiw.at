@@ -1,1 +1,1 @@
-export { Certificates  } from './Certificates'
+export { default as Certificates } from './Certificates'
