@@ -1,5 +1,4 @@
-import {  Footer } from '../components';
-import { About } from '../components/about';
+import { About, Footer } from '../components';
 
 function HomePage() {
   return (

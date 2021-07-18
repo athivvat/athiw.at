@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Experience, Education, Certificates } from '../';
+import { Experience, Education, Certificates } from '../../components';
 
 const Content = styled.div`
   display: grid;
@@ -69,4 +69,4 @@ const About: React.FC = () => {
   );
 };
 
-export { About };
+export default About;
