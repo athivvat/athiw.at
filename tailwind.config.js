@@ -12,8 +12,7 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
-      dark: "#1d1d1f",
-      midnight: "#090a0b"
+      dark: "#141414",
     },
     screens: {
       'sm': '640px',
