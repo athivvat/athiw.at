@@ -6,7 +6,7 @@ const Header = () => {
         <Link href="/">
           <a className="font-medium">
             Athivvat
-            <span className="text-white/60 font-normal pl-1.5">
+            <span className="text-white/50 font-normal pl-1.5">
               — Humanity need an upgrade
             </span>
           </a>
