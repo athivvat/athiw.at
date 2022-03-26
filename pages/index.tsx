@@ -16,13 +16,15 @@ function HomePage() {
           </p>
         </div>
       </div>
-      <p className="text-lg">
-        Hello! I&apos;m Athiwat Hirunworawongkun — founder at Humaan.ai and data
-        platform engineer at King Power Click. Interested in neuroscience,
-        artificial intelligence, robotics, computer science, and human-centered
-        design. I&apos;m on a mission to upgrade humanity, sometimes fixed and
-        upgrade myself 😜.
-      </p>
+      <div className="container">
+        <p className="text-lg">
+          Hello! I&apos;m Athiwat Hirunworawongkun — founder at Humaan.ai and
+          data platform engineer at King Power Click. Interested in
+          neuroscience, artificial intelligence, robotics, computer science, and
+          human-centered design. I&apos;m on a mission to upgrade humanity,
+          sometimes fixed and upgrade myself 😜.
+        </p>
+      </div>
     </div>
   );
 }
