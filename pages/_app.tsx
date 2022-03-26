@@ -1,4 +1,4 @@
-import { Layout } from '../components/layout';
+import { Layout } from '@/components/Layout';
 import { NextSeo } from 'next-seo';
 
 import "../styles/globals.css";

@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   content: [
@@ -12,24 +12,27 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
-      dark: "#141414",
+      dark: '#0e0c0b',
       indigo: colors.indigo,
       teal: colors.teal,
       rose: colors.rose,
       violet: colors.violet,
-      emerald: colors.emerald
+      emerald: colors.emerald,
+      fuchsia: colors.fuchsia,
+      'spun-pearl': '#a1a1a6',
     },
     screens: {
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
     },
     container: {
       center: true,
       padding: {
-        'sm': '2rem',
-        'md': '2rem',
-        'lg': '0'
+        DEFAULT: '1rem',
+        sm: '2rem',
+        md: '2rem',
+        lg: '0',
       },
     },
     fontFamily: {
@@ -50,7 +53,11 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        grid: "url('/grid.svg')",
+      },
+    },
   },
   variants: {
     extend: {},

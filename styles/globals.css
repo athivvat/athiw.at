@@ -4,5 +4,6 @@
 @tailwind utilities;
 
 body {
-  background: @apply bg-dark;
+  @apply bg-dark;
+  @apply text-spun-pearl;
 }
