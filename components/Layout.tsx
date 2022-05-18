@@ -1,7 +1,11 @@
 import React from 'react';
 import { Footer } from '@/components/Footer';
 
-export const Layout: React.FC = ({ children }) => {
+interface LayoutProps {
+  children?: React.ReactNode;
+}
+
+export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen bg-dark antialiased selection:bg-rose-600/90 selection:text-white">
       <div className="relative z-10 mx-auto w-full sm:max-w-screen-sm">
